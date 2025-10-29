@@ -1,0 +1,8 @@
+ext {
+    extName = 'HiAnime'
+    extClass = '.HiAnime'
+    extVersionCode = 1 // Start at 1, increment with each update
+    libVersion = '13' // Check current lib version in repository
+}
+
+apply from: "$rootDir/common.gradle"
